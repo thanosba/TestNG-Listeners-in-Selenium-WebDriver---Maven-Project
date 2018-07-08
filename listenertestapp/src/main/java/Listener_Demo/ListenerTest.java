@@ -11,22 +11,14 @@ public class ListenerTest implements ITestListener
 {
 
     @Override
-    public void onFinish(ITestContext Result)
-    {
-
-    }
+    public void onFinish(ITestContext Result){}
+   
 
     @Override
-    public void onStart(ITestContext Result)
-    {
-
-    }
+    public void onStart(ITestContext Result){}
 
     @Override
-    public void onTestFailedButWithinSuccessPercentage(ITestResult Result)
-    {
-
-    }
+    public void onTestFailedButWithinSuccessPercentage(ITestResult Result){}
 
     @Override
     public void onTestFailure(ITestResult Result)
